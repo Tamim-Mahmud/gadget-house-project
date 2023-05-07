@@ -1,0 +1,85 @@
+/* header and nav section */
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.top-nav a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #3A3A3A;
+    text-decoration: none;
+}
+
+.house-name {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #3A3A3A;
+}
+
+/* section-1 style */
+.section1{
+    display: flex;
+    justify-content: space-evenly;margin-bottom: 70px;
+}
+.sec1-des{
+    width: 582px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+}
+.sec1-title{
+    margin-top: 145px;;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+}
+.sec1-thumb img{
+    margin-top: 80px;
+    padding:20px;
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat:no-repeat;
+    
+    background-size:contain ;
+    
+}
+.prebook-btn{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;background: #E02C6D;
+border-radius: 41px;height: 44px;padding: 10px 24px;border:0;color: #FFFFFF;
+}
+/* company profile styule */
+.associate-company{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+hr{
+    width: 90%;
+    
+    background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+}

@@ -348,5 +348,8 @@ footer{
     margin-top:180px;
     padding :10px;
 }
+.sec1-thumb img{
+    padding: 0;
+}
     
 }

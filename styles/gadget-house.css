@@ -10,9 +10,12 @@ body {
     display: flex;
     justify-content: space-around;
 }
-.menu-line,.temp{
+
+.menu-line,
+.temp {
     visibility: hidden;
 }
+
 .top-nav {
     display: flex;
     align-items: center;
@@ -91,7 +94,7 @@ body {
 
     display: flex;
     justify-content: space-evenly;
-    padding: 30px;
+    
 }
 
 hr {
@@ -248,7 +251,8 @@ footer {
     color: #FFFFFF;
 }
 
-.des , .rights {
+.des,
+.rights {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 700;
@@ -257,56 +261,92 @@ footer {
 }
 
 .fa-brands {
- margin-right: 10px;background: #FFFFFF;
+    margin-right: 10px;
+    background: #FFFFFF;
 }
+
 /* res[ponsive design] */
 @media screen and (max-width:576px) {
-    .top-nav{
+    .top-nav {
         display: none;
     }
-    .menu-line,.temp{
+
+    .menu-line,
+    .temp {
         visibility: visible;
         text-decoration: none;
-        
-    }
-    .nav-bar{
-        display: flex;
-        align-items: center;
-        justify-content:space-around
+
     }
 
-     hr ,.product-section,.section3 ,footer{
-        display:none;
+    .nav-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-around
     }
-    .section1{
+
+    hr {
+        display: none;
+    }
+
+    .section1 {
         flex-direction: column-reverse;
         justify-content: center;
         margin: 0;
-        
+
     }
 
-    .sec1-thumb>img,.sec1-des{
-        width:95%;
+    .sec1-thumb>img,
+    .sec1-des {
+        width: 95%;
         text-align: center;
     }
-    .sec1-title{
-        margin-top:20px ;
+
+    .sec1-title {
+        margin-top: 20px;
         font-size: 40px;
-    
-    }
-    .associate-company{
-        margin-top:20px;
-        display: grid;
-        grid-template-columns:1fr 1fr 1fr 1fr;
-       place-content: center;
-        grid-row-gap:25px;
-        grid-column-gap:15px;
-        
-        
-    }
-    .associate-company>img{
-        width:100%;
+
     }
 
-   
+    .associate-company {
+        margin-top: 30px;;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content:center;
+        align-items:center;
+        width:100%;
+        
+       
+    }
+    .section-title{
+        margin-top: 30px;;
+    }
+    .all-products{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section3{
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        gap:10px;
+        
+    }
+    .sec3-feature{
+        text-align: center;
+       width: auto;
+       font-size: 2em;
+    }
+
+    
+footer{
+    margin-top:180px;
+    padding :10px;
+}
+    
 }
